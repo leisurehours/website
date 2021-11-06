@@ -1,3 +1,3 @@
 This content folder is designed to house all of the Leisure Hours content. The index.html code will pull text, audio, video, and art from here to be displayed in creative ways.
 
-To contribute, just drop your content into the respective folder type. Images should be PNG format. Written content should be TXT. Video should be MP4. Audio should be WAV. 
+To contribute, just drop your content into the respective folder type. Images should be PNG or JP(E)G format. Written content should be TXT. Video should be MP4. Audio should be WAV. 
