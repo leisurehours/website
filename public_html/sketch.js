@@ -11,8 +11,10 @@ var yWaveSpeed = .05
 var tracking = 30;
 function setup() {
   colorMode(HSL, 360);
-  createCanvas(500, 500);
+  var myCanvas = createCanvas(500, 500);
+  myCanvas.parent("sketch");
   background(0, 0, 360);
+
 
 }
 function draw() {
