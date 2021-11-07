@@ -20,7 +20,7 @@ function setup() {
 }
 function draw() {
   background(0, 0, 360);
-  image(capture, 0, 0, 320, 240);
+  image(capture, 0, 0, 500, 500);
   filter(INVERT);
 fill(h, s, l);
 textSize(32);
