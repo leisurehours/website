@@ -16,7 +16,7 @@ function setup() {
   myCanvas.parent("sketch");
   background(0, 0, 360);
   capture = createCapture(VIDEO);
-  capture.size(320, 240);
+  capture.size(500, 500);
 }
 function draw() {
   background(0, 0, 360);

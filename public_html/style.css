@@ -2,10 +2,10 @@
    width: device-width;
    zoom:1;
 }
-/* html, body {
+html, body {
   margin: 0;
   padding: 0;
-} */
+}
 canvas {
   display: block;
 }
@@ -16,11 +16,11 @@ width: 50%;
 padding: 10px;
 }
 
-/* @media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
   img {
     width: 100%;
   }
   .center{
     width: 100%;
   }
-} */
+}
