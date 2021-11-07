@@ -15,8 +15,9 @@ function setup() {
   var myCanvas = createCanvas(500, 500);
   myCanvas.parent("sketch");
   background(0, 0, 360);
-  capture = createCapture(VIDEO);
+  capture = createCapture(THRESHOLD);
   capture.size(500, 500);
+  capture.hide();
 }
 function draw() {
   background(0, 0, 360);
