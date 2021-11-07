@@ -17,6 +17,7 @@ function setup() {
   background(0, 0, 360);
   capture = createCapture(VIDEO);
   capture.size(500, 500);
+  capture.hide();
 }
 function draw() {
   background(0, 0, 360);
