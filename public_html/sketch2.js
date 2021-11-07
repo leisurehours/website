@@ -15,14 +15,13 @@ function setup() {
   var myCanvas = createCanvas(500, 500);
   myCanvas.parent("sketch");
   background(0, 0, 360);
-  capture = createCapture(THRESHOLD);
+  capture = createCapture(VIDEO);
   capture.size(500, 500);
-  capture.hide();
 }
 function draw() {
   background(0, 0, 360);
   image(capture, 0, 0, 500, 500);
-  filter(INVERT);
+  filter(THRESHOLD);
 fill(h, s, l);
 textSize(32);
 translate(width/2,height/2);
